@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #FDF1EC;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    background-color: #fff;
+    width: 70%;
+    height: 40%;
+    border-radius: 7px;
+    box-shadow: 7px 7px 29px -11px rgba(0, 0, 0, 0.75);
+    display: flex;
+}
+
+.image-area {
+    background-color: #8FBFB3;
+    width: 50%;
+    height: 100%;
+    border-radius: 7px 0 0 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-area img {
+    width: 85%;
+}
+
+.content-area {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.price-area {
+    display: flex;
+    justify-content: space-between;
+}
